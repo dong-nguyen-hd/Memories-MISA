@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ic_ToastMessage_Info" transform="translate(-690 -5903)">
+    <g id="Ellipse_68" data-name="Ellipse 68" transform="translate(690 5903)" fill="none" stroke="#0997eb" stroke-width="1.5">
+      <circle cx="10" cy="10" r="10" stroke="none"/>
+      <circle cx="10" cy="10" r="9.25" fill="none"/>
+    </g>
+    <g id="Group_26879" data-name="Group 26879" transform="translate(699.259 5908.208)">
+      <path id="Path_59381" data-name="Path 59381" d="M1.673-4.746a.688.688,0,0,1-.243-.567v-4.914a.669.669,0,0,1,.243-.56.97.97,0,0,1,.618-.191,1,1,0,0,1,.625.191.661.661,0,0,1,.25.56v4.914a.679.679,0,0,1-.25.567A2.007,2.007,0,0,1,1.673-4.746Z" transform="translate(-1.43 13.872)" fill="#0997eb"/>
+      <circle id="Ellipse_75" data-name="Ellipse 75" cx="0.868" cy="0.868" r="0.868" fill="#0997eb"/>
+    </g>
+  </g>
+</svg>

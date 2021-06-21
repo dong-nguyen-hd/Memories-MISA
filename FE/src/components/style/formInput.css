@@ -1,0 +1,358 @@
+.main-content {
+    font-size: 13px;
+    font-family: opensans-regular;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.bg-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    opacity: 0.6;
+    z-index: 3;
+}
+
+.is-loading {
+    z-index: 5;
+}
+
+.wrap-information {
+    height: 100%;
+    width: 100%;
+    z-index: 98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.popup {
+    z-index: 4;
+    position: absolute;
+    width: 840px;
+    height: 90%;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.popup-header {
+    height: 63px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup-header span {
+    font-family: opensans-bold;
+    font-size: 15px;
+    margin: 24px 24px;
+}
+
+.popup-header img {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.popup-header img:hover {
+    background-color: #EAECEF;
+}
+
+.popup-content {
+    position: absolute;
+    top: 63px;
+    width: 100%;
+    height: calc(100% - 123px);
+}
+
+.content-scroll {
+    width: 100%;
+    height: 100%;
+    overflow-y: visible;
+    overflow-x: hidden;
+    display: flex;
+}
+
+.content-one, .content-two {
+    width: 420px;
+    height: 100%;
+    border-color: #EEE;
+    border-style: solid;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.content-one {
+    border-width: 0px 1px 0px 0px;
+}
+
+.content-two {
+    border-width: 0px 0px 0px 1px;
+    display: flex;
+}
+
+.block-input {
+    height: 60px;
+    width: 372px;
+    margin: 0 24px 0px 24px;
+}
+
+.input-fee-name, .input-fee-group, .input-fee-range, .input-fee-quality {
+    height: 100%;
+    width: 100%;
+}
+
+.input-fee-name-content, .input-fee-group-content, .input-fee-range-content, .input-fee-quality-content {
+    display: flex;
+    margin-top: 3px;
+}
+
+.input-fee-name-content input, .input-fee-range-content select, .input-fee-quality-content select {
+    outline-color: #019160;
+    border: 1px solid #CCC;
+    padding-left: 12px;
+    width: 100%;
+    height: 32px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.input-fee-group-content select {
+    outline-color: #019160;
+    padding-left: 12px;
+    width: calc(100% - 32px);
+    height: 32px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: #CCC;
+    border-style: solid;
+    border-width: 1px 0px 1px 1px;
+}
+
+.button-add-fee-group {
+    height: 32px;
+    width: 32px;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.input-fee-amount {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.child-fee-amount-one {
+    height: 100%;
+    width: 216px;
+}
+
+.fee-amount-one-input {
+    width: 100%;
+    margin-top: 3px;
+}
+
+.fee-amount-one-input input {
+    height: 32px;
+    width: 100%;
+    padding: 0 12px;
+    outline-color: #019160;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.child-fee-amount-two {
+    height: 100%;
+    width: 28px;
+    position: relative;
+}
+
+.child-fee-amount-two span {
+    position: absolute;
+    bottom: 13px;
+    left: 6px;
+}
+
+.child-fee-amount-three {
+    height: 100%;
+    width: 128px;
+}
+
+.fee-amount-three-input {
+    margin-top: 3px;
+}
+
+.fee-amount-three-input select {
+    height: 32px;
+    width: 100%;
+    padding-left: 12px;
+    outline-color: #019160;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.input-turn-fee {
+    width: 100%;
+    height: 100%;
+}
+
+.input-turn-fee-content {
+    margin-top: 10px;
+    height: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img.ratio {
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.input-checkbox-turn-fee {
+    height: 100%;
+    width: auto;
+    display: flex;
+}
+
+.block-one-content, .block-two-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.boolean-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+.boolean-check-box {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.boolean-switch {
+    height: 20px;
+    width: 25px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.popup-footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.required {
+    color: #FA3939;
+}
+
+.invalid input, .invalid select, .invalid {
+    border-color: #FA3939!important;
+}
+
+.button-footer {
+    height: 32px;
+    min-width: 96px;
+    font-family: opensans-semibold;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.button-save, .button-save-as {
+    background-color: #019160;
+    color: #FFF;
+}
+
+.button-save {
+    margin-right: 24px;
+}
+
+.button-save-as {
+    margin-right: 8px;
+}
+
+.button-close {
+    border: 1px solid #CCC;
+    color: #000;
+    background-color: #FFF;
+    margin-right: 8px;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #CCC;
+    border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #24344B;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #24344B;
+}

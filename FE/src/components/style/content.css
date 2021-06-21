@@ -1,0 +1,75 @@
+.main-content {
+    font-size: 13px;
+    font-family: opensans-regular;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-upper {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    background-color: #EAECEF;
+    /* border */
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.content-tab {
+    height: 40px;
+    background-color: #EAECEF;
+    display: flex;
+    align-items: center;
+    font-family: opensans-semibold;
+    color: #b1b1b1;
+    /* border */
+    border-color: #e9ebee61;
+    border-style: groove;
+    border-width: 0px 1px 0px 0px;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: #fff;
+    color: #0DD469!important;
+    /* border */
+    border-color: #0DD469!important;
+}
+
+.inside-tab {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: auto;
+    /* border */
+    border-color: #e9ebee61;
+    border-style: groove;
+    border-width: 3px 0px 0px 0px;
+    border-radius: 5px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.content-under {
+    width: 100%;
+    height: calc(100% - 40px);
+    position: absolute;
+    bottom: 0;
+}
+
+.anonymous-tab {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: opensans-semibold;
+    font-size: 15px;
+    color: #FA3939;
+}

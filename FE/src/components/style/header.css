@@ -1,0 +1,253 @@
+.header-content {
+    font-size: 13px;
+    position: relative;
+    font-family: opensans-regular;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Part of right */
+
+.right-information {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.icon-search {
+    height: 35px;
+    width: 35px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.avatar-img {
+    margin-right: 16px;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.range-year {
+    width: 112px;
+    height: 35px;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.range-year svg {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    height: 24px;
+    width: 24px;
+    transform: rotateX(180deg);
+    transition: all 0.1s ease;
+}
+
+.range-year ul {
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    bottom: -143px;
+    z-index: 99;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.range-year ul li {
+    height: 35px;
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+    border-color: #CCC;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.range-year span {
+    height: 100%;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.range-year ul li:hover {
+    background-color: #CCC;
+}
+
+.school-information {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #CCC;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.school-information img {
+    height: 33px;
+    width: 33px;
+}
+
+.school-information span {
+    padding: 0 12px;
+}
+
+.isActive {
+    animation: all 0.1s ease;
+    transform: rotateY(-180deg)!important;
+}
+
+
+/* Part of left */
+
+.left-information {
+    position: absolute;
+    top: 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.left-information span {
+    font-size: 18px;
+    font-family: opensans-bold;
+}
+
+.left-information img {
+    height: 16px;
+    width: 16px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+
+/* tool tip */
+
+.tooltip-reload {
+    display: block !important;
+    z-index: 10000;
+}
+
+.tooltip-reload .tooltip-inner {
+    background: black;
+    color: white;
+    border-radius: 16px;
+    padding: 5px 10px 4px;
+}
+
+.tooltip-reload .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 5px;
+    border-color: black;
+    z-index: 1;
+}
+
+.tooltip-reload[x-placement^="top"] {
+    margin-bottom: 5px;
+}
+
+.tooltip-reload[x-placement^="top"] .tooltip-arrow {
+    border-width: 5px 5px 0 5px;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+    bottom: -5px;
+    left: calc(50% - 5px);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tooltip-reload[x-placement^="bottom"] {
+    margin-top: 5px;
+}
+
+.tooltip-reload[x-placement^="bottom"] .tooltip-arrow {
+    border-width: 0 5px 5px 5px;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+    top: -5px;
+    left: calc(50% - 5px);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tooltip-reload[x-placement^="right"] {
+    margin-left: 5px;
+}
+
+.tooltip-reload[x-placement^="right"] .tooltip-arrow {
+    border-width: 5px 5px 5px 0;
+    border-left-color: transparent !important;
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+    left: -5px;
+    top: calc(50% - 5px);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tooltip-reload[x-placement^="left"] {
+    margin-right: 5px;
+}
+
+.tooltip-reload[x-placement^="left"] .tooltip-arrow {
+    border-width: 5px 0 5px 5px;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+    right: -5px;
+    top: calc(50% - 5px);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tooltip-reload.popover .popover-inner {
+    background: #f9f9f9;
+    color: black;
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 0 5px 30px rgba(black, .1);
+}
+
+.tooltip-reload.popover .popover-arrow {
+    border-color: #f9f9f9;
+}
+
+.tooltip-reload[aria-hidden='true'] {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .15s, visibility .15s;
+}
+
+.tooltip-reload[aria-hidden='false'] {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .15s;
+}

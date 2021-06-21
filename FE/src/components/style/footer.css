@@ -1,0 +1,100 @@
+.footer-content {
+    font-size: 13px;
+    font-family: opensans-regular;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.block-edge {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.count-pages {
+    height: 100%;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.count-pages span {
+    font-family: opensans-bold;
+    margin: 0 5px;
+}
+
+.pagination-button {
+    height: 40px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-btn {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #e9ebeee3;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: opensans-bold;
+}
+
+.pagination-btn:hover {
+    background-color: #EAECEF;
+}
+
+.is-active, .is-active:hover {
+    background-color: #019160!important;
+    color: #fff!important;
+}
+
+.size-per-page {
+    height: 100%;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.block-size-per-page {
+    width: 220px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.size-per-page input {
+    position: absolute;
+    border-style: none;
+    right: 0;
+    width: 137px;
+    height: 100%;
+    outline: none;
+    font-family: opensans-bold;
+    z-index: 1;
+    background-color: #fff0;
+}
+
+.size-per-page span {
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
