@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MISA.Core\**" />
+    <Compile Remove="MISA.Infrastructure\**" />
+    <Content Remove="MISA.Core\**" />
+    <Content Remove="MISA.Infrastructure\**" />
+    <EmbeddedResource Remove="MISA.Core\**" />
+    <EmbeddedResource Remove="MISA.Infrastructure\**" />
+    <None Remove="MISA.Core\**" />
+    <None Remove="MISA.Infrastructure\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="MISA.Core\MISA.Core.csproj" />
+    <ProjectReference Include="MISA.Infrastructure\MISA.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
