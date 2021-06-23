@@ -7,19 +7,19 @@ import VTooltip from 'v-tooltip'
 Vue.use(VTooltip, { defaultHtml: false })
 Vue.config.productionTip = false
 
-import LeftSideBar from "./components/LeftSideBar";
-import Header from "./components/Header";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
-import FormInput from "./components/FormInput";
-import FeeList from "./components/FeeList";
-import Loading from "./components/Loading";
+import LeftSideBar from "./components/layout/LeftSideBar";
+import FeeHeader from "./components/header/FeeHeader";
+import FeeContent from "./components/layout/FeeContent";
+import FeeFooter from "./components/footer/FeeFooter";
+import FeeFormInput from "./components/layout/FeeFormInput";
+import FeeList from "./components/layout/FeeList";
+import Loading from "./components/layout/Loading";
 
 Vue.component("left-side-bar", LeftSideBar)
-Vue.component("Header", Header)
-Vue.component("Content", Content)
-Vue.component("Footer", Footer)
-Vue.component("form-input", FormInput)
+Vue.component("Header", FeeHeader)
+Vue.component("Content", FeeContent)
+Vue.component("Footer", FeeFooter)
+Vue.component("form-input", FeeFormInput)
 Vue.component("fee-list", FeeList)
 Vue.component("Loading", Loading)
 

@@ -1,0 +1,5 @@
+Sử dụng mariadb, bao gồm 4 bảng:
+- Fee
+- FeeGroup
+- UnitFee
+- FeeRange

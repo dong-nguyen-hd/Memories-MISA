@@ -75,11 +75,15 @@
 
 /* tool tip */
 .tooltip-reload {
+    font-family: opensans-regular;
+    font-size: 13px;
     display: block !important;
     z-index: 10000;
 }
 
 .tooltip-reload .tooltip-inner {
+    font-family: opensans-regular;
+    font-size: 13px;
     background: #24344B;
     color: #FFF;
     border-radius: 16px;
@@ -92,7 +96,7 @@
     border-style: solid;
     position: absolute;
     margin: 5px;
-    border-color: black;
+    border-color: #24344B;
     z-index: 1;
 }
 

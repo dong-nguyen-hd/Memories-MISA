@@ -1,0 +1,14 @@
+﻿{
+  "ResponseMessage": {
+    "Values": {
+      "Success": "Successful!",
+      "NoData": "Đối tượng không tồn tại.",
+      "DuplicateError": "đã tồn tại trong CSDL.",
+      "DeleteError": "Lỗi khi thực hiện xoá đối tượng.",
+      "DeleteImportantError": "Không được phép xoá, do đối tượng mặc định của hệ thống.",
+      "GetError": "Lỗi khi thực hiện lấy dữ liệu.",
+      "InsertError": "Lỗi khi thực hiện thêm mới đối tượng.",
+      "UpdateError": "Lỗi khi thực hiện cập nhật đối tượng."
+    }
+  }
+} 
