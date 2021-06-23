@@ -1,4 +1,4 @@
-﻿# Web API Restful:<p/>A Little Funny
+﻿# Web API Restful: A Little Funny
 
 This project building on **.NET 5.0**, using for fee management. 
 
